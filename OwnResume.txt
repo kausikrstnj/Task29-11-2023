@@ -1,0 +1,71 @@
+
+// Create your own resume data in JSON format
+let resume = {
+    "resume": {
+        "name": "Kausik",
+        "contact": {
+            "email": "kausik@gmail.com",
+            "phone": "+917566736648",
+            "address": "123 Main Street, Adyar, Chennai"
+        },
+        "summary": "Experienced Full Stack engineer with a passion for creating efficient and scalable solutions. Proven track record in full-stack development and a commitment to continuous learning.",
+        "education": [
+            {
+                "degree": "Bachelor of Science in Computer Science",
+                "school": "University of Tech",
+                "year": 2018
+            }
+        ],
+        "experience": [
+            {
+                "position": "Full Stack Engineer",
+                "company": "GUVI",
+                "location": "IIT Madras Chennai",
+                "dates": "2018 - Present",
+                "responsibilities": [
+                    "Lead development of a new customer portal, increasing user engagement by 30%.",
+                    "Collaborate with cross-functional teams to deliver high-quality software products.",
+                    "Provide mentorship to junior developers, fostering a culture of continuous improvement."
+                ]
+            },
+        ],
+        "skills": [
+            "Languages: JavaScript, Core Java, HTML",
+            "Frameworks: React, Node.js, Spring Boot",
+            "Database: MySQL, MongoDB",
+            "Tools: Git, Docker, Jenkins",
+        ],
+        "projects": [
+            {
+                "name": "Project X",
+                "description": "Developed a real-time chat application using React and Node.js.",
+                "highlights": [
+                    "Implemented WebSocket for instant messaging functionality.",
+                    "Integrated user authentication and authorization features."
+                ]
+            },
+            {
+                "name": "Project Y",
+                "description": "Led the development of a data analytics dashboard for business intelligence.",
+                "highlights": [
+                    "Utilized Python for data processing and analysis.",
+                    "Designed interactive visualizations for better data interpretation."
+                ]
+            }
+        ],
+        "certifications": [
+            {
+                "name": "Certified Full-Stack Developer",
+                "organization": "Tech Certification Institute",
+                "year": 2017
+            }
+        ]
+    }
+};
+
+//Converting JSON format into String format:
+console.log(resume);
+
+//To print the JSON object in String
+//const resume_JSON_Format = JSON.stringify(resume);
+//console.log(resume_JSON_Format);
